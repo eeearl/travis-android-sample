@@ -10,6 +10,9 @@ env:
    # install timeout in minutes (2 minutes by default)
     - ADB_INSTALL_TIMEOUT=8
 
+before_script:
+  - chmod +x gradlew
+
 # Run assemble and unit tests
 script:
   - ./gradlew clean assembleDebug assembleRelease testDebug
