@@ -3,7 +3,7 @@ dist: trusty
 android:
   components:
     - android-28
-    - build-tools-27.0.3
+    - build-tools-29.0.0
 
 env:
   global:
