@@ -9,6 +9,7 @@ plugins {
 
 android {
     compileSdkVersion(Versions.compileSdk)
+    buildToolsVersion("29.0.0")
 
     defaultConfig {
         applicationId = "com.eeearl.travisandroid"
