@@ -2,7 +2,7 @@ package com.eeearl.travisandroid
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.eeearl.R
+import com.eeearl.travisandroid.R
 
 class MainActivity : AppCompatActivity() {
 
