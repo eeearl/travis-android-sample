@@ -2,12 +2,17 @@ language: android
 dist: trusty
 android:
   components:
+    - tools
+    - platform-tools
     - android-28
     - build-tools-29.0.0
+    - extra-google-google_play_services
+    - extra-google-m2repository
+    - extra-android-m2repository
 
 env:
   global:
-   # install timeout in minutes (2 minutes by default)
+    # install timeout in minutes (2 minutes by default)
     - ADB_INSTALL_TIMEOUT=8
 
 before_script:
